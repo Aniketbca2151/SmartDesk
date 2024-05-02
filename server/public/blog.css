@@ -1,0 +1,79 @@
+    /* Reset default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Set a background color */
+    body {
+        background-color: #f5f5f5;
+    }
+
+    /* Set a max-width for the content */
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* Style the blog post */
+    .blog-post {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .blog-post h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .blog-post p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .blog-post a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    /* Style the sidebar */
+    .sidebar {
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .sidebar h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sidebar li {
+        margin-bottom: 10px;
+    }
+
+    /* Media queries for responsiveness */
+    @media screen and (max-width: 768px) {
+        .container {
+            padding: 10px;
+        }
+
+        .blog-post {
+            padding: 10px;
+        }
+
+        .sidebar {
+            padding: 10px;
+        }
+    }
